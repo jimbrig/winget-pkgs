@@ -2,7 +2,7 @@ repo_name: jimbrig/winget-pkgs
 report_id: 3acadbe1e0b67d53e686067868b07dce
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:28:01+00:00'
+timestamp: '2024-02-29T18:58:58+00:00'
 requested_by: anamnavi
 provider: github
 branch: master
