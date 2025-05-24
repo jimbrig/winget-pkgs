@@ -28,11 +28,11 @@ Tags:
 - 文件
 - 服务器
 ReleaseNotes: |-
-  1. 修复 115open 在个别情况下会下载失败，重启服务才能恢复的问题
-  2. 修复跨网盘转移到加密文件夹时，0 字节文件会转移失败的问题
-  3. 根据百度网盘开放平台 API 更新，修复百度网盘无法正确显示会员级别的问题
-  4. 其它 bug 修复和性能改进
-ReleaseNotesUrl: https://github.com/cloud-fs/cloud-fs.github.io/releases/tag/v0.8.18
+  1. 修复某些 OneDrive 账号类型无法获取账号 email，导致无法添加多个 OneDrive 账号的问题，如果你的 OneDrive 账号不显示用户名，请升级到此版本后删除 OneDrive 重新添加一次
+  2. 改进在网络故障或者网盘故障导致下载失败时的处理流程，更好地适应网络变化
+  3. 修复在个别情况下上传出错小概率可能导致系统死锁的问题
+  4. 其它 bug 修复、性能改进和界面调整
+ReleaseNotesUrl: https://github.com/cloud-fs/cloud-fs.github.io/releases/tag/v0.8.20
 PurchaseUrl: https://www.clouddrive2.com/pricing.html
 ManifestType: locale
 ManifestVersion: 1.10.0
