@@ -76,14 +76,14 @@ ProductCode: Okular
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/graphics/okular/release-25.04/windows/okular-release_25.04-6268-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: E6E52DC2C2A116ACC046293CCEBD611E1EEF493AF617D9C874EFB962A6FA321F
+  InstallerUrl: https://cdn.kde.org/ci-builds/graphics/okular/release-25.04/windows/okular-release_25.04-6287-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 3B14F9AF60C5BADABC607B24F186B92BE49F42A15DD5AF8640A73C44A87263B9
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/graphics/okular/release-25.04/windows/okular-release_25.04-6268-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: E6E52DC2C2A116ACC046293CCEBD611E1EEF493AF617D9C874EFB962A6FA321F
+  InstallerUrl: https://cdn.kde.org/ci-builds/graphics/okular/release-25.04/windows/okular-release_25.04-6287-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 3B14F9AF60C5BADABC607B24F186B92BE49F42A15DD5AF8640A73C44A87263B9
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
